@@ -1,0 +1,7 @@
+public void LoginPage(String username, String password){
+
+driver.findElement(By.name("uesrname")).sendKeys(username);
+driver.findElement(By.name("uesrname")).sendKeys(password);
+driver.findElement(By.xpath("//button[test()='Login']")).click();
+
+}
